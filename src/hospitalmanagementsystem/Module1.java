@@ -245,8 +245,8 @@ public class Module1 extends javax.swing.JFrame {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
                 String url="jdbc:mysql://localhost:3306/Hospital?zeroDateTimeBehavior=CONVERT_TO_NULL";
-                String sqlusername="Hospital";
-                String sqlpass="Hospital";
+                String sqlusername="root";
+                String sqlpass="15052002";
                 
                 Connection conn = java.sql.DriverManager.getConnection(url, sqlusername, sqlpass);
                 String sql = "INSERT INTO PatientForm (PatientName, FatherName, AadharNumber, PatientIllness, ChooseDoctor) VALUES (?, ?, ?, ?, ?)";

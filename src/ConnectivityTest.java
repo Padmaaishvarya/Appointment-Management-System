@@ -22,6 +22,10 @@ public class ConnectivityTest {
             System.out.println(e);
         }
     }
+    public static void main(String[] args){
+        new ConnectivityTest();
+}
+
     
     
 }

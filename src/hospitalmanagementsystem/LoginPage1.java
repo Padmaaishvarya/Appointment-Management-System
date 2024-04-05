@@ -131,8 +131,8 @@ public class LoginPage1 extends javax.swing.JFrame {
         try{
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String url="jdbc:mysql://localhost:3306/Hospital?zeroDateTimeBehavior=CONVERT_TO_NULL";
-                String sqlusername="Hospital";
-                String sqlpass="Hospital";
+                String sqlusername="root";
+                String sqlpass="15052002";
                 
                 Connection conn = DriverManager.getConnection(url, sqlusername, sqlpass);
                 
